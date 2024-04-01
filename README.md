@@ -30,7 +30,7 @@ Check the UI of all the app screens from a single place by setting up the 'initi
 ```
 
 ### Fonts
-We were unable to find the following Fonts, Please add manually to ```assets/fonts``` 
+```assets/fonts``` 
 
 ```
 RobotoRomanSemiBold.ttf
