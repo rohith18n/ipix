@@ -1,0 +1,38 @@
+name: ipix
+description: A new Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+dependencies:
+  cached_network_image: ^3.3.0
+  either_dart: ^1.0.0
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.9
+  get: ^4.6.6
+  intl: ^0.18.0
+  maps_launcher: ^2.2.1
+  shared_preferences: ^2.2.2
+  shimmer: ^3.0.0
+  url_launcher: ^6.2.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/RobotoRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
